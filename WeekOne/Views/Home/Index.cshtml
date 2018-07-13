@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="">
+    <h1 class="">練習</h1>
+    <hr />
+</div>
+
+<div class="row">
+    <div class="col-md-10">
+        <h2>撰寫記錄</h2>
+        <p>
+            <ul>
+                <li>將客戶資料資料庫加入到 (localDb)\MSSQLLocalDB 並將 3 張表都加上「是否已刪除」欄位，型態為：bit 預設值為：0</li>
+                <li>建立專案、加入實體資料庫、加入 IRepository.tt 及 EFGeneratePartialClass.tt</li>
+                <li>建立 客戶資料Controller、客戶聯絡人Controller、客戶帳戶資訊Controller 及所對應的 C.R.U.D 頁面</li>
+                <li>實作「客戶聯絡人」時，同一個客戶下的聯絡人，其 Email 不能重複。</li>
+                <li>在「客戶資料列表」頁面新增篩選功能，可以用「客戶分類」欄位進行資料篩選 (下拉選單)</li>
+                <li>在「客戶聯絡人列表」頁面新增篩選功能，可以用「職稱」欄位進行資料篩選</li>
+                <li>對於 Create 與 Edit 表單要套用欄位驗證 (必填、Email格式、欄位長度限制等驗證)</li>
+            </ul>
+        </p>
+    </div>
+    <div class="col-md-10">
+        <h2>Todo</h2>
+        <p>
+            <ul>
+                <li>各清單欄位排序功能</li>
+                <li>加入 ClosedXML 套件實作匯出 Excel功能</li>
+                <li>實作一個清單頁面，顯示欄位有「客戶名稱、聯絡人數量、銀行帳戶數量」共三個欄位</li>
+                <li>透過 JavaScript 實作一些 AJAX 操作，後端 MVC 使用 JsonResult 進行回應</li>
+            </ul>
+        </p>        
+    </div>
+</div>
